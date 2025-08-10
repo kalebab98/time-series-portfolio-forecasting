@@ -95,7 +95,7 @@ This project applies time series forecasting techniques to real financial data i
 ### 📂 Folder Structure
 
 ## 📁 Project Structure
-
+```bash
 time-series-portfolio-forecasting/
 │
 ├── data/
@@ -116,7 +116,7 @@ time-series-portfolio-forecasting/
 ├── requirements.txt # List of required packages
 ├── README.md # Project overview
 └── LICENSE # (Optional) License file
-
+```
 ---
 
 ### 📌 Next Steps
