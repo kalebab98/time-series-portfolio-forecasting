@@ -105,12 +105,26 @@ time-series-portfolio-forecasting/
 │
 ├── notebooks/
 │ └── 01_data_exploration.ipynb # Full Task 1 notebook
+│ └── LSTM_modeling .ipynb
+│ └── task_2_time_series_modeling.ipynb
+│ └── task_3_forecasting_and_analysis.ipynb .ipynb
+│ └── task_4_portfolio_optimization.ipynb .ipynb
+│ └── task_5_backtesting_strategy.ipynb
 │
-├── reports/
-│ └── interim_report.md # Optional short summary
+├── models/
+│ └── lstm model.h5 
 │
 ├── src/
 │ └── data_loader.py # Script to download YFinance data
+│
+├── output/plot
+│ └── ARIMA(5,1,2) Forecast vs Actual.png
+│ └── Backtest Strategy vs Benchmark.png
+│ └── AEfficient Frontier with Optimal Portfolios.png
+│ └── LSTM Forecast vs Actual (TSLA).png
+│ └── Market Opportunities and Risks Summary.png
+│ └── Trend Analysis Actual vs Forecasted Prices.png
+│ └── Volatility & Risk Forecast with Simple Error Band.png
 │
 ├── .gitignore # Ignore large files, checkpoints
 ├── requirements.txt # List of required packages
